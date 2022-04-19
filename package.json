@@ -1,6 +1,6 @@
 {
   "name": "redis-dumpz",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "Picked up the redis-dump package that seems abandoned, to at least give it security patches. This package dumps redis database into redis commands or json with command line or node.js",
   "keywords": [
     "redis",
@@ -25,7 +25,7 @@
     "redis-dump": "./bin/cli/redis-dump"
   },
   "dependencies": {
-    "async": "^1.5.2",
+    "async": "^3.2.3",
     "optimist": "^0.3.7",
     "redis": "^3.1.1"
   },
